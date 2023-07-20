@@ -64,3 +64,31 @@ select * from film where special_features = 'Behind the Scenes';
 
 
 select * from film;
+-- 
+-- where city in
+
+select min(status), max(status) from orders;
+
+select datediff(min(orderdate), max(orderdate)) from orders;
+
+select datediff('2023-01-10', '2023-01-01');
+
+select * from orders
+where  year (orderDate) = 2005; 
+
+-- select * from orders
+-- where  year OrderDate like '2005'; orderDate
+-- 
+-- select * from payment;
+-- 
+-- 
+-- floor (amount) r
+-- 
+-- round (amount)
+-- 
+-- celie
+
+select now();
+
+
+-- select * from city;
